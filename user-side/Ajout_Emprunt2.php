@@ -16,7 +16,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['Emprunter2'])) {
         $tel =$_POST['tel'];
         $email =$_POST['email'];
         $cin =$_POST['cin'];
-        //$piece_name =$_POST['nom_piece'];
         $dateE = $_POST["date_emprunt"];
         $heureE = $_POST["heure_emprunt"];
         $heureE = $heureE . ":00";
